@@ -34,7 +34,7 @@ export default function Home() {
               <a
                 key={item}
                 href="#"
-                className="text-[11px] tracking-[0.25em] uppercase text-[#1A1A1A]/60 hover:text-[#1A1A1A] transition-colors duration-300"
+                className="text-[13px] font-semibold tracking-[0.18em] uppercase text-[#1A1A1A] hover:text-[#D4AF37] transition-colors duration-300"
               >
                 {item}
               </a>
@@ -44,7 +44,7 @@ export default function Home() {
           {/* CTA */}
           <a
             href="#"
-            className="hidden md:inline-flex items-center h-10 px-8 bg-[#1A1A1A] text-[#F9F8F6] text-[11px] tracking-[0.2em] uppercase hover:bg-[#D4AF37] hover:text-[#1A1A1A] transition-all duration-500"
+            className="hidden md:inline-flex items-center h-10 px-8 bg-[#D4AF37] text-[#1A1A1A] text-[13px] font-bold tracking-[0.2em] uppercase hover:bg-[#1A1A1A] hover:text-[#F9F8F6] transition-all duration-500"
           >
             Book Now
           </a>
@@ -81,14 +81,14 @@ export default function Home() {
                 key={item}
                 href="#"
                 onClick={() => setMenuOpen(false)}
-                className="text-sm tracking-[0.25em] uppercase text-[#1A1A1A]/70 hover:text-[#1A1A1A] transition-colors"
+                className="text-sm font-semibold tracking-[0.2em] uppercase text-[#1A1A1A] hover:text-[#D4AF37] transition-colors"
               >
                 {item}
               </a>
             ))}
             <a
               href="#"
-              className="inline-flex items-center justify-center h-12 px-8 bg-[#1A1A1A] text-[#F9F8F6] text-[11px] tracking-[0.2em] uppercase mt-2"
+              className="inline-flex items-center justify-center h-12 px-8 bg-[#D4AF37] text-[#1A1A1A] text-[13px] font-bold tracking-[0.2em] uppercase mt-2"
             >
               Book Now
             </a>
@@ -113,7 +113,7 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
           <div className="grid grid-cols-12 gap-6">
             <div className="col-span-12 md:col-span-9">
-              <span className="inline-block text-[11px] tracking-[0.3em] uppercase text-[#D4AF37] mb-8">
+              <span className="inline-block text-[13px] font-bold tracking-[0.25em] uppercase text-[#1A1A1A] bg-[#D4AF37] px-4 py-1.5 mb-8">
                 Glendora&apos;s Premier Boutique Studio &nbsp;·&nbsp; Est. 1998
               </span>
               <h1
