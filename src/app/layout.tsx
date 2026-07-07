@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Spin 360 Core Fitness | Indoor Cycling | Glendora",
+  title: "Spin 360 Core Fitness | Strength & Spin Classes for Women | Glendora",
   description:
-    "Spin 360 Core Fitness is a premier boutique spinning studio. Voted Glendora's best for spinning, personal training, small group strength training, and nutrition. Serving our community since 1998.",
+    "Spin 360 Core Fitness is Glendora's premier boutique studio for women 35+ who want to feel strong, energetic, and vibrant. Strength training, spin classes, and personal training that improve your quality of life — since 1998.",
 };
 
 export default function RootLayout({

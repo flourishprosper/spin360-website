@@ -120,20 +120,19 @@ export default function Home() {
                 className="font-[family-name:var(--font-playfair)] font-bold leading-[0.88] text-[#1A1A1A] mb-10"
                 style={{ fontSize: "clamp(4rem, 10vw, 9rem)" }}
               >
-                Where<br />
-                <span className="text-[#1A1A1A]/40 italic">Bodies</span><br />
-                Transform
+                Strong<br />
+                <span className="text-[#1A1A1A]/40 italic">Confident</span><br />
+                Vibrant
               </h1>
               <p className="text-base text-[#1A1A1A]/60 max-w-sm leading-relaxed mb-10">
-                Voted Glendora&apos;s best boutique studio for spinning, personal
-                training, small group strength training, and nutrition.
+                Strength training and spin classes designed for women 35+ who want to feel powerful, energetic, and unstoppable — for life.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
                   href="#"
                   className="inline-flex items-center h-14 px-10 bg-[#1A1A1A] text-[#F9F8F6] text-[11px] tracking-[0.2em] uppercase hover:bg-[#D4AF37] hover:text-[#1A1A1A] transition-all duration-500"
                 >
-                  Join The Studio
+                  Start Your Journey
                 </a>
                 <a
                   href="#"
@@ -172,21 +171,18 @@ export default function Home() {
             </div>
             <div className="col-span-12 md:col-span-8 md:col-start-3">
               <span className="block text-[11px] tracking-[0.3em] uppercase text-[#D4AF37] mb-6">
-                Essential Wellness
+                Strength &amp; Vitality
               </span>
               <h2
                 className="font-[family-name:var(--font-playfair)] font-bold text-[#F9F8F6] leading-[0.92] mb-8"
                 style={{ fontSize: "clamp(3rem, 6vw, 5.5rem)" }}
               >
-                Workouts That<br />
-                <span className="text-[#F9F8F6]/40 italic">Inspire</span> And<br />
-                Energize
+                Fitness Built<br />
+                For The <span className="text-[#F9F8F6]/40 italic">Life</span><br />
+                You Deserve
               </h2>
               <p className="text-base text-[#F9F8F6]/55 max-w-lg leading-relaxed">
-                At Spin 360 Core Fitness, our passionate team is dedicated to
-                delivering workouts that inspire and energize, leaving you eager
-                for more. Our goal is to help you surpass your expectations and
-                get into the best shape of your life.
+                At Spin 360 Core Fitness, we believe your best years are ahead of you. Our expert team specializes in helping women 35+ build real strength, increase energy, and reclaim their confidence — one class at a time. You belong here.
               </p>
             </div>
           </div>
@@ -236,9 +232,7 @@ export default function Home() {
                 The 360<br />Experience
               </h2>
               <p className="text-base text-[#1A1A1A]/55 leading-relaxed max-w-md">
-                Designed for joy, the 360 Experience brings our community together
-                to climb, jog, sprint, dance, and push past boundaries. Set your
-                intentions. Achieve transformative results.
+                The 360 Experience is built for women who are ready to invest in themselves. Whether you&apos;re stepping into your strength for the first time or leveling up, our community will meet you exactly where you are.
               </p>
             </div>
           </div>
@@ -248,24 +242,24 @@ export default function Home() {
             {[
               {
                 number: "01",
+                title: "Strength Training",
+                body: "Purpose-built for women 35+. Our small-group strength classes help you build lean muscle, protect your bones, boost your metabolism, and feel powerful in your body — every single day.",
+                image:
+                  "https://images.unsplash.com/photo-1517963879433-6ad2a56b25b8?w=800&q=80&fit=crop",
+              },
+              {
+                number: "02",
                 title: "Spin Classes",
-                body: "Inspirational music keeps you moving on and off the bike. High-energy, full-body workouts that burn fat and boost endurance. Get ready to sweat.",
+                body: "High-energy cardio that&apos;s actually fun. Our spin classes burn fat, boost heart health, and flood your body with endorphins. Ride to music that moves you and leave feeling like a force of nature.",
                 image:
                   "https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?w=800&q=80&fit=crop",
               },
               {
-                number: "02",
-                title: "Personalized Training",
-                body: "Expert staff tailoring programs to your fitness level and goals. Private, comfortable studio with top-tier instructors and specialists.",
+                number: "03",
+                title: "Personal Training",
+                body: "Your goals, your pace, your program. Our expert trainers design sessions around your body and your life — moving you closer to feeling your strongest, most energetic self.",
                 image:
                   "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80&fit=crop",
-              },
-              {
-                number: "03",
-                title: "Strength Training",
-                body: "Small group strength classes led by specialists. Build power, endurance, and resilience in a supportive, uplifting community environment.",
-                image:
-                  "https://images.unsplash.com/photo-1517963879433-6ad2a56b25b8?w=800&q=80&fit=crop",
               },
             ].map((service) => (
               <div
@@ -346,14 +340,12 @@ export default function Home() {
                 className="font-[family-name:var(--font-playfair)] font-bold text-[#1A1A1A] leading-[0.92] mb-8"
                 style={{ fontSize: "clamp(2.5rem, 5vw, 5rem)" }}
               >
-                Your Inner<br />
-                Athlete<br />
-                <span className="text-[#1A1A1A]/35 italic">Awaits</span>
+                Your Strongest<br />
+                Self<br />
+                <span className="text-[#1A1A1A]/35 italic">Starts Here</span>
               </h2>
               <p className="text-base text-[#1A1A1A]/55 leading-relaxed mb-10 max-w-sm">
-                We empower every member to discover their inner athlete and reach
-                their personal best — in a supportive, uplifting environment
-                built for growth, resilience, and transformation.
+                Spin 360 was built for women who refuse to let age define their limits. Our warm, supportive community will push you, celebrate you, and keep you coming back. This is where quality of life gets built.
               </p>
 
               {/* Awards */}
@@ -397,11 +389,10 @@ export default function Home() {
             className="font-[family-name:var(--font-playfair)] font-bold text-[#F9F8F6] leading-[0.88] mb-8"
             style={{ fontSize: "clamp(3.5rem, 8vw, 7rem)" }}
           >
-            Ready To<br />Transform?
+            Ready To<br />Feel Stronger?
           </h2>
           <p className="text-base text-[#F9F8F6]/55 max-w-sm mx-auto mb-12 leading-relaxed">
-            We can&apos;t wait to welcome you to our community. Together, we inspire
-            growth, resilience, and transformation.
+            Your community is waiting. Take the first step toward a stronger, more vibrant life — and we&apos;ll be right there with you.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -430,9 +421,7 @@ export default function Home() {
                 SPIN 360 CORE FITNESS
               </div>
               <p className="text-xs text-[#F9F8F6]/40 leading-relaxed max-w-xs">
-                Premier boutique spinning studio. The first to offer indoor cycle
-                classes in the pride of the Foothills. Serving our community
-                since 1998.
+                Glendora&apos;s premier boutique studio for women who want to feel strong, energetic, and vibrant. Strength training, spin classes, and personal training — since 1998.
               </p>
             </div>
 
