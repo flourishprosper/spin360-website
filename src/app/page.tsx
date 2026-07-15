@@ -30,7 +30,7 @@ export default function Home() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
-            {["Classes", "Training", "Schedule", "About", "Contact"].map((item) => (
+            {[("Classes"), ("Training"), ("Schedule"), ("About"), ("Contact")].map((item) => (
               <a
                 key={item}
                 href="#"
@@ -39,6 +39,12 @@ export default function Home() {
                 {item}
               </a>
             ))}
+            <a
+              href="/wellness"
+              className="text-[13px] font-semibold tracking-[0.18em] uppercase text-[#1A1A1A] hover:text-[#D4AF37] transition-colors duration-300"
+            >
+              Wellness
+            </a>
           </div>
 
           {/* CTA */}
@@ -86,6 +92,13 @@ export default function Home() {
                 {item}
               </a>
             ))}
+            <a
+              href="/wellness"
+              onClick={() => setMenuOpen(false)}
+              className="text-sm font-semibold tracking-[0.2em] uppercase text-[#1A1A1A] hover:text-[#D4AF37] transition-colors"
+            >
+              Wellness
+            </a>
             <a
               href="#"
               className="inline-flex items-center justify-center h-12 px-8 bg-[#D4AF37] text-[#1A1A1A] text-[13px] font-bold tracking-[0.2em] uppercase mt-2"
